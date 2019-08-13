@@ -15,7 +15,8 @@
     <string name="account_type_item">Account Type:</string>
     <string name="account_linkedId_item">Linked Account Id:</string>
     <string name="account_productName_item">Product Name:</string>
-    <string name="account_savingsTargetReached_item">Savings Target Reached:</string>
+    <string name="account_productType_item">Product Type:</string>
+    <string name="account_savingsTargetReached_item">Savings Target:</string>
     <string name="account_targetAmountInCents_item">Target Amount(Cents):</string>
 
 

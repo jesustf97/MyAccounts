@@ -1,8 +1,17 @@
 package com.calleja.jesus.myaccounts.data
 
 import com.calleja.jesus.myaccounts.models.Account
+import java.util.ArrayList
 
-class DataSource {
+
+   private val accountsList: ArrayList<Account> = ArrayList()
+
+    fun readAccountList(): ArrayList<Account>{
+        accountsList.add(account1)
+        accountsList.add(account2)
+        accountsList.add(account3)
+        return accountsList
+    }
     val account1 =
         Account(985000.0, "EUR", "748757694",
             "Hr P L G N StellingTD", "748757694",
@@ -23,4 +32,3 @@ class DataSource {
 
 
 
-}
