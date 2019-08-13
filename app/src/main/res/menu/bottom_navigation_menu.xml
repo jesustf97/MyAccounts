@@ -3,14 +3,14 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-            android:id="@+id/bottom_nav_info"
+            android:id="@+id/bottom_nav_visible_accounts"
             android:enabled="true"
             android:icon="@drawable/ic_visible_accounts"
             android:title="@string/visible_accounts_navBar"
             app:showAsAction="ifRoom"/>
 
     <item
-            android:id="@+id/bottom_nav_expense"
+            android:id="@+id/bottom_nav_all_accounts"
             android:enabled="true"
             android:icon="@drawable/ic_all_accounts"
             android:title="@string/all_accounts_navBar"
