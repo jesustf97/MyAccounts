@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyAccounts</string>
+    <string name="visible_accounts_navBar">Visible Accounts</string>
+    <string name="all_accounts_navBar">All Accounts</string>
 </resources>
