@@ -1,5 +1,23 @@
 <resources>
     <string name="app_name">MyAccounts</string>
+    //NavigationBar
     <string name="visible_accounts_navBar">Visible Accounts</string>
     <string name="all_accounts_navBar">All Accounts</string>
+
+    //Accounts
+    <string name="account_name_item">Account Name:</string>
+    <string name="account_IBAN_item">Iban:</string>
+    <string name="account_BalanceInCents_item">Balance(Cents):</string>
+    <string name="account_Currency_item">Currency:</string>
+    <string name="account_id_item">Account Id:</string>
+    <string name="account_number_item">Account Number:</string>
+    <string name="account_alias_item">Alias:</string>
+    <string name="account_type_item">Account Type:</string>
+    <string name="account_linkedId_item">Linked Account Id:</string>
+    <string name="account_productName_item">Product Name:</string>
+    <string name="account_savingsTargetReached_item">Savings Target Reached:</string>
+    <string name="account_targetAmountInCents_item">Target Amount(Cents):</string>
+
+
+
 </resources>
