@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
     <android.support.v7.widget.CardView
@@ -23,73 +23,84 @@
             <LinearLayout android:layout_width="177dp"
                           android:layout_height="wrap_content"
                           android:orientation="vertical">
+
                 <TextView
                         android:text="@string/account_name_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/accountNameField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
                 <TextView
                         android:text="@string/account_IBAN_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/ibanField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
+
+
+
                 <TextView
                         android:text="@string/account_BalanceInCents_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/balanceInCentsField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:text="@string/account_Currency_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/currencyField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:text="@string/account_id_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/accountIdField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:text="@string/account_number_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/accountNumberField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
+
+
                 <TextView
                         android:text="@string/account_type_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/accountTypeField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:text="@string/account_alias_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/aliasField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
                 <TextView
                         android:text="@string/account_linkedId_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/linkedAccountIdField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:text="@string/account_productName_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/productNameField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
@@ -97,7 +108,7 @@
                 <TextView
                         android:text="@string/account_productType_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/productTypeField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
@@ -105,7 +116,7 @@
                 <TextView
                         android:text="@string/account_savingsTargetReached_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/savingsTargetReachedField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
@@ -113,7 +124,7 @@
                 <TextView
                         android:text="@string/account_targetAmountInCents_item"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/targetAmountField"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
@@ -124,74 +135,77 @@
                           android:orientation="vertical">
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/accountName"
                         android:textSize="18sp"/>
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/iban"
-                    android:textSize="18sp"/>
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/account_info_space"
+                        android:id="@+id/iban"
+                        android:textSize="18sp"/>
+
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/balanceInCents"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/currency"
                         android:textSize="18sp"/>
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/accountId"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/accountNumber"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/accountType"
                         android:textSize="18sp"/>
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/alias"
                         android:textSize="18sp"/>
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/linkedAccountId"
                         android:textSize="18sp"/>
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/productName"
                         android:textSize="18sp"/>
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/productType"
                         android:textSize="18sp"/>
+
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/savingsTargetReached"
                         android:textSize="18sp"/>
+
+
                 <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/emptySpace"
-                        android:textSize="18sp"/>
-                <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="@dimen/account_info_space"
                         android:id="@+id/targetAmount"
                         android:textSize="18sp"/>
+
 
 
             </LinearLayout>
