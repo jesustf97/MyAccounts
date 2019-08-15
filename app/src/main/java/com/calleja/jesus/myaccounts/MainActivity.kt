@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v4.view.PagerAdapter
 import android.support.v4.view.ViewPager
 import android.view.MenuItem
+import com.calleja.jesus.myaccounts.fragments.AllAccounts
 import com.calleja.jesus.myaccounts.fragments.VisibleAccounts
 import com.calleja.jesus.mylibrary.interfaces.ToolbarActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -25,6 +26,7 @@ class MainActivity : ToolbarActivity() {
     private fun getPagerAdapter(): PagerAdapter {
         val adapter = com.calleja.jesus.myaccounts.adapters.PagerAdapter(supportFragmentManager)
         adapter.addFragment(VisibleAccounts())
+        adapter.addFragment(AllAccounts())
         return adapter
     }
 

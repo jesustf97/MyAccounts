@@ -3,15 +3,27 @@ package com.calleja.jesus.myaccounts.data
 import com.calleja.jesus.myaccounts.models.Account
 import java.util.ArrayList
 
-
-   private val accountsList: ArrayList<Account> = ArrayList()
-
-    fun readAccountList(): ArrayList<Account>{
+    fun readAccountsList(): ArrayList<Account>{
+       val accountsList: ArrayList<Account> = ArrayList()
         accountsList.add(account1)
         accountsList.add(account2)
         accountsList.add(account3)
         return accountsList
     }
+
+    fun readVisibleAccountsList(accounts:ArrayList<Account>): ArrayList<Account> {
+        val visibleAccountsList: ArrayList<Account> = ArrayList()
+        val iterator = accounts.iterator()
+        while (iterator.hasNext()) {
+            val account: Account = iterator.next()
+            if (account.visible) {
+                visibleAccountsList.add(account)
+            }
+        }
+        return visibleAccountsList
+    }
+
+
     val account1 =
         Account(985000.0, "EUR", "748757694",
             "Hr P L G N StellingTD", "748757694",

@@ -11,10 +11,9 @@ import android.view.ViewGroup
 import com.calleja.jesus.myaccounts.R
 import com.calleja.jesus.myaccounts.adapters.AccountsAdapter
 import com.calleja.jesus.myaccounts.data.readAccountsList
-import com.calleja.jesus.myaccounts.data.readVisibleAccountsList
 import kotlinx.android.synthetic.main.fragment_accounts.view.*
 
-class VisibleAccounts : Fragment() {
+class AllAccounts : Fragment() {
 
     private lateinit var _view: View
     private lateinit var adapter: AccountsAdapter
@@ -32,7 +31,7 @@ class VisibleAccounts : Fragment() {
 
     private fun setUpRecyclerView() {
         val layoutManager = LinearLayoutManager(context)
-        adapter = AccountsAdapter(readVisibleAccountsList(readAccountsList()))
+        adapter = AccountsAdapter(readAccountsList())
         _view.recyclerViewAccountsFragment.setHasFixedSize(true)
         _view.recyclerViewAccountsFragment.layoutManager = layoutManager
         _view.recyclerViewAccountsFragment.itemAnimator = DefaultItemAnimator()
